@@ -10,6 +10,8 @@ public class PlayerHandler : MonoBehaviour
 
     public ContactFilter2D movementFilter;
     Vector2 movementInput;
+
+    SpriteRenderer spriterenderer;
     Rigidbody2D rb;
 
     Animator animator;
@@ -21,6 +23,7 @@ public class PlayerHandler : MonoBehaviour
     {
         rb = GetComponent<Rigidbody2D>();
         animator = GetComponent<Animator>();
+        spriterenderer = GetComponent<SpriteRenderer>();
     }
 
     // Update is called once per frame
@@ -41,6 +44,13 @@ public class PlayerHandler : MonoBehaviour
         }
         else{
             animator.SetBool("isMoving", false);
+        }
+
+        if(movementInput.x < 0){
+            spriterenderer.flipX = true;
+        }
+        else if (movementInput.x > 0){
+            spriterenderer.flipX = false;
         }
     }
 
