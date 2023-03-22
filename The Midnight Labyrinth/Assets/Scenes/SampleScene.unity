@@ -135,7 +135,7 @@ GameObject:
   - component: {fileID: 152107885}
   - component: {fileID: 152107884}
   - component: {fileID: 152107883}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Walls
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1238,8 +1238,8 @@ GameObject:
   - component: {fileID: 785075500}
   - component: {fileID: 785075502}
   - component: {fileID: 785075501}
-  m_Layer: 0
-  m_Name: Tilemap
+  m_Layer: 7
+  m_Name: Ground
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3143,6 +3143,10 @@ PrefabInstance:
     - target: {fileID: 2676232833677468195, guid: 5ae1ec7442f79034c8a92a79f67bb925, type: 3}
       propertyPath: m_Name
       value: Player
+      objectReference: {fileID: 0}
+    - target: {fileID: 2676232833677468195, guid: 5ae1ec7442f79034c8a92a79f67bb925, type: 3}
+      propertyPath: m_Layer
+      value: 9
       objectReference: {fileID: 0}
     - target: {fileID: 4943057245080120872, guid: 5ae1ec7442f79034c8a92a79f67bb925, type: 3}
       propertyPath: m_RootOrder
