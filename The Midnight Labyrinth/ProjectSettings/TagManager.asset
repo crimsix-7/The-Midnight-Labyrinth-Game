@@ -10,6 +10,7 @@ TagManager:
   - HighScore
   - MainMenu
   - Finishline
+  - Enemy
   layers:
   - Default
   - TransparentFX
