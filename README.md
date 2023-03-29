@@ -43,10 +43,14 @@ Prerequisites
     
     Sound Effects: Players can expect sound effects when they die, which will be an electronic buzz.
 
-    Special Items: Players will have access to a special item (Potion) that will boost their speed and another item (Blue line) that will remove the speed boost.            implemeting the special items usecase.
+    Special Items: Players will have access to a special item (Potion) that will boost their speed and another item (Blue line) that will remove the speed boost.           Implemeting the special items usecase.
 
-    AI Bot: The game will feature an AI bot that will chase the player, using a pathfinding algorithm. This usecase is implemented such that i bot avoids obstacles to      reach the Player within the shortest distance possible.
+    AI Bot: The game will feature an AI bot that will chase the player, using a pathfinding algorithm. This usecase is implemented such that AI bot avoids obstacles to     reach the Player within the shortest distance possible.
 
-    Player Maneuverability: Players will be able to navigate through a maze, using various maneuvers to evade the AI bot and reach their goals. The game's mechanics        will allow players to avoid the AI bot QUite smoothly.
+    Player Maneuverability: Players will be able to navigate through a maze, using various maneuvers to evade the AI bot and reach their goals. 
+     The game's mechanics will allow players to avoid the AI bot QUite smoothly.
+    
+# Accessing Source Code
+    To access the source code go to the folder "The Midnight Labyrinth" => "Assets" => "SRC"
 
 Congratulations, you are ready to play THE MIDNIGHT LABYRINTH
