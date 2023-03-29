@@ -7,7 +7,8 @@ public class PlayerHandler : MonoBehaviour
 {
     public float moveSpeed = 1f;
     public float collisionOffset = 0.02f;
-
+    public float boostSpeed = 2.5f;
+    public float slowSpeed = 1f;
     public ContactFilter2D movementFilter;
     Vector2 movementInput;
 
@@ -51,6 +52,19 @@ public class PlayerHandler : MonoBehaviour
         else if (movementInput.x > 0){
             spriterenderer.flipX = false;
         }
+    }
+    void OnTriggerEnter2D(Collider2D other) {
+        if(other.tag == "Boost")
+        {
+            moveSpeed = boostSpeed;
+            Destroy(other.gameObject);
+        }
+        else if(other.tag == "Slow")
+        {
+            moveSpeed = slowSpeed;
+            Destroy(other.gameObject);
+        }
+
     }
 
     private bool TryMove(Vector2 direction){

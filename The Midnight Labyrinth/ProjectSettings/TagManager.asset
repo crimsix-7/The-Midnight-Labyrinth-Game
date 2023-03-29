@@ -11,6 +11,8 @@ TagManager:
   - MainMenu
   - Finishline
   - Enemy
+  - Boost
+  - Slow
   layers:
   - Default
   - TransparentFX
