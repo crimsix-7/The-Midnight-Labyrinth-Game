@@ -6,6 +6,7 @@ public class PlayerHealth : MonoBehaviour
 {
     public int health;
     public int maxHealth = 3;
+    public AudioSource audioPlayer;
     // Start is called before the first frame update
     void Start()
     {
@@ -19,6 +20,8 @@ public class PlayerHealth : MonoBehaviour
         if(health <= 0)
         {
             Destroy(gameObject);
+            audioPlayer.Play();
+
         }
         
 
