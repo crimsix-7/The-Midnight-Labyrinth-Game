@@ -1,3 +1,4 @@
+
 using System.Collections;
 using System.Collections.Generic;
 using System.Threading;
@@ -10,10 +11,13 @@ public class PlayerHealth : MonoBehaviour
     public AudioSource audioPlayer;
     private float delayTime = 2.0f;
     private float timeElapsed;
+
+    PlayerHandler playerHandler;
     // Start is called before the first frame update
     void Start()
     {
         health = maxHealth;
+        playerHandler = GetComponent<PlayerHandler>();
     }
 
     // Update is called once per frame
@@ -27,7 +31,7 @@ public class PlayerHealth : MonoBehaviour
         health -= amount;
         if(health <= 0)
         {
-            
+            playerHandler.TriggerDeathAnimation();
             audioPlayer.Play();
             Invoke("changeScene", 1.0f);
             
@@ -38,16 +42,4 @@ public class PlayerHealth : MonoBehaviour
 
     }
     
-    //private void Update()
-    //{
-    //    if(GameObject.FindGameObjectsWithTag("Player")==null)
-    //    {
-    //        Debug.Log("In statement");
-    //        timeElapsed += Time.deltaTime;
-    //        if(timeElapsed > delayTime) 
-    //        {
-    //            ;
-    //        }
-    //    }
-    //}
 }

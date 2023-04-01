@@ -1,3 +1,4 @@
+
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -91,5 +92,10 @@ public class PlayerHandler : MonoBehaviour
 
     void OnMove(InputValue MovementValue){
         movementInput = MovementValue.Get<Vector2>();
+    }
+
+    public void TriggerDeathAnimation()
+    {
+        animator.SetBool("isDead", true);
     }
 }
