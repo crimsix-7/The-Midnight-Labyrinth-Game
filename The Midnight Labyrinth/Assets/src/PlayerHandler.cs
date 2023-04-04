@@ -11,6 +11,8 @@ public class PlayerHandler : MonoBehaviour
     public float boostSpeed = 2.5f;
     public float slowSpeed = 1f;
     public ContactFilter2D movementFilter;
+
+    bool lockmovement = false;
     Vector2 movementInput;
 
     SpriteRenderer spriterenderer;
@@ -46,12 +48,16 @@ public class PlayerHandler : MonoBehaviour
         else{
             animator.SetBool("isMoving", false);
         }
-
-        if(movementInput.x < 0){
-            spriterenderer.flipX = true;
-        }
-        else if (movementInput.x > 0){
-            spriterenderer.flipX = false;
+        if (lockmovement == false)
+        {
+            if(movementInput.x < 0)
+            {
+                spriterenderer.flipX = true;
+            }
+            else if (movementInput.x > 0)
+            {
+                spriterenderer.flipX = false;
+            }
         }
     }
     void OnTriggerEnter2D(Collider2D other) {
@@ -96,6 +102,7 @@ public class PlayerHandler : MonoBehaviour
 
     public void TriggerDeathAnimation()
     {
+        lockmovement = true;
         animator.SetBool("isDead", true);
     }
 }
