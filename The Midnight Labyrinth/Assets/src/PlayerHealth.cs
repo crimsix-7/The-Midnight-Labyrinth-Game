@@ -9,7 +9,7 @@ public class PlayerHealth : MonoBehaviour
     public int health;
     public int maxHealth = 3;
     public AudioSource audioPlayer;
-    private float delayTime = 2.0f;
+    private float delayTime = 1.0f;
     private float timeElapsed;
 
     PlayerHandler playerHandler;
@@ -33,7 +33,7 @@ public class PlayerHealth : MonoBehaviour
         {
             playerHandler.TriggerDeathAnimation();
             audioPlayer.Play();
-            Invoke("changeScene", 1.0f);
+            Invoke("changeScene", delayTime);
             
 
 
