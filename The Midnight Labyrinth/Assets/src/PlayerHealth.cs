@@ -11,11 +11,14 @@ public class PlayerHealth : MonoBehaviour
     public AudioSource audioPlayer;
     private float delayTime = 1.0f;
     private float timeElapsed;
+    public GameObject Player;
+    static public bool playerAlive = true;
 
     PlayerHandler playerHandler;
     // Start is called before the first frame update
     void Start()
     {
+        Player = GameObject.FindGameObjectWithTag("Player");
         health = maxHealth;
         playerHandler = GetComponent<PlayerHandler>();
     }
@@ -24,7 +27,8 @@ public class PlayerHealth : MonoBehaviour
     void changeScene()
     {
         SceneManager.LoadScene("Scene0");
-        Destroy(gameObject);
+        Destroy(Player);
+        playerAlive = false;
     }
     public void TakeDamage(int amount)
     {
