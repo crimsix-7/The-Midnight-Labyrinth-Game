@@ -13,6 +13,7 @@ public class Death : MonoBehaviour
     void Update()
     {
         timeelapsed += Time.deltaTime;
+        Transition.Alive = false;
         if (timeTODelay < timeelapsed )
         {
             SceneManager.LoadScene("Game");
