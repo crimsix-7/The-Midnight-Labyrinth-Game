@@ -1,0 +1,899 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfTypeDate xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <TypeDate>
+    <guid>d2f55043460e1fd4ca03064860efea91</guid>
+    <fileName>Assets/Plugins/unity-sweeper-main/UnitySweeper/Editor/AssetCollector.cs</fileName>
+    <timeStamp>2023-04-04T04:33:36.9506951-02:30</timeStamp>
+    <typeFullName>
+      <string>UnitySweeper.AssetCollector</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp-Editor-firstpass, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>e007597e28448e14b92fe7399fe1fc8b</guid>
+    <fileName>Assets/Plugins/unity-sweeper-main/UnitySweeper/Editor/AssetReferenceCollection.cs</fileName>
+    <timeStamp>2023-04-04T04:33:36.9639692-02:30</timeStamp>
+    <typeFullName>
+      <string>UnitySweeper.AssetReferenceCollection</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp-Editor-firstpass, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>eaff65d508c1c2b4e942cfd2c902dc3e</guid>
+    <fileName>Assets/Plugins/unity-sweeper-main/UnitySweeper/Editor/ClassReferenceCollection.cs</fileName>
+    <timeStamp>2023-04-04T04:33:36.9780105-02:30</timeStamp>
+    <typeFullName>
+      <string>UnitySweeper.ClassReferenceCollection</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp-Editor-firstpass, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>e3efafc79b1d62943b58fb8bef2dc218</guid>
+    <fileName>Assets/Plugins/unity-sweeper-main/UnitySweeper/Editor/CollectionData.cs</fileName>
+    <timeStamp>2023-04-04T04:33:36.9905222-02:30</timeStamp>
+    <typeFullName>
+      <string>UnitySweeper.CollectionData</string>
+      <string>UnitySweeper.TypeDate</string>
+      <string>UnitySweeper.IReferenceCollection</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp-Editor-firstpass, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>54b2a20cbbfdf0f4eb897a0a7d682b5b</guid>
+    <fileName>Assets/Plugins/unity-sweeper-main/UnitySweeper/Editor/FindUnusedAssetsWindow.cs</fileName>
+    <timeStamp>2023-04-04T04:33:37.0045256-02:30</timeStamp>
+    <typeFullName>
+      <string>UnitySweeper.FindUnusedAssetsWindow</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp-Editor-firstpass, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>5a5a9b6e6e72d0e41801afd8ca6c26db</guid>
+    <fileName>Assets/Plugins/unity-sweeper-main/UnitySweeper/Editor/ShaderReferenceCollection.cs</fileName>
+    <timeStamp>2023-04-04T04:33:37.0177116-02:30</timeStamp>
+    <typeFullName>
+      <string>UnitySweeper.ShaderReferenceCollection</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp-Editor-firstpass, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>a0817b32590f5214d932d3d5e657f487</guid>
+    <fileName>Assets/src/EnemyDamage.cs</fileName>
+    <timeStamp>2023-03-29T09:05:07.2767076-02:30</timeStamp>
+    <typeFullName>
+      <string>EnemyDamage</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>d39d3d432bfcf6f42815e8e0283a01fd</guid>
+    <fileName>Assets/src/finishLine.cs</fileName>
+    <timeStamp>2023-03-29T00:01:15.7775472-02:30</timeStamp>
+    <typeFullName>
+      <string>finishLine</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>bb5acf89a8a8dd647bfcd8c333411a90</guid>
+    <fileName>Assets/src/MainMenuLogic.cs</fileName>
+    <timeStamp>2023-03-29T00:01:15.7770455-02:30</timeStamp>
+    <typeFullName>
+      <string>MainMenuLogic</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>ab20166311670394888b2cdabcf03170</guid>
+    <fileName>Assets/src/PlayerHandler.cs</fileName>
+    <timeStamp>2023-04-04T02:42:44.8311569-02:30</timeStamp>
+    <typeFullName>
+      <string>PlayerHandler</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>70d4d3334bb843a46aec5509b5d8fcc8</guid>
+    <fileName>Assets/src/PlayerHealth.cs</fileName>
+    <timeStamp>2023-04-01T21:03:06.4456655-02:30</timeStamp>
+    <typeFullName>
+      <string>PlayerHealth</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>1fab5faf1cc58ff40af336501456f882</guid>
+    <fileName>Assets/src/SpriteDirection.cs</fileName>
+    <timeStamp>2023-04-01T20:01:32.1314188-02:30</timeStamp>
+    <typeFullName>
+      <string>SpriteDirection</string>
+    </typeFullName>
+    <assembly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assembly>
+  </TypeDate>
+  <TypeDate>
+    <guid>c9679e68a0f1144e79c664d9a11ca121</guid>
+    <fileName>Assets/AstarPathfindingProject/Behaviors/AIDestinationSetter.cs</fileName>
+    <timeStamp>2023-04-02T01:42:56.4970692-02:30</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>22e6c29e32504465faa943c537d8029b</guid>
+    <fileName>Assets/AstarPathfindingProject/Behaviors/Patrol.cs</fileName>
+    <timeStamp>2023-03-29T01:42:27.4702849-02:30</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>f499b0552bded40b6a9d474dfb94343a</guid>
+    <fileName>Assets/AstarPathfindingProject/Core/astarclasses.cs</fileName>
+    <timeStamp>2023-03-29T01:42:27.5088725-02:30</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>38d211caa07cb44ef886481aa1cf755c</guid>
+    <fileName>Assets/AstarPathfindingProject/Core/AstarData.cs</fileName>
+    <timeStamp>2023-03-29T01:42:27.4798105-02:30</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>960fd9020b1f74f939fee737c3c0f491</guid>
+    <fileName>Assets/AstarPathfindingProject/Core/AstarMath.cs</fileName>
+    <timeStamp>2023-03-29T01:42:27.4808106-02:30</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>78396926cbbfc4ac3b48fc5fc34a87d1</guid>
+    <fileName>Assets/AstarPathfindingProject/Core/AstarPath.cs</fileName>
+    <timeStamp>2023-03-29T01:42:27.4818109-02:30</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>efee954c69f0d421086729bb8df1137f</guid>
+    <fileName>Assets/AstarPathfindingProject/Core/GraphUpdateScene.cs</fileName>
+    <timeStamp>2023-03-29T01:42:27.4828212-02:30</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>1c31d3b0be14344e98aa458dc66c3a94</guid>
+    <fileName>Assets/AstarPathfindingProject/Core/GraphUpdateShape.cs</fileName>
+    <timeStamp>2023-03-29T01:42:27.4828212-02:30</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>b179046d83ec84f0c91efc5335f78a30</guid>
+    <fileName>Assets/AstarPathfindingProject/Core/Path.cs</fileName>
+    <timeStamp>2023-03-29T01:42:27.5038699-02:30</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>7cc885607b0534cc6a4a34c4caa58d89</guid>
+    <fileName>Assets/AstarPathfindingProject/Core/PathHandler.cs</fileName>
+    <timeStamp>2023-03-29T01:42:27.5048706-02:30</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>ab4eeab9df88a4d069163baf60aad496</guid>
+    <fileName>Assets/AstarPathfindingProject/Editor/AIBaseEditor.cs</fileName>
+    <timeStamp>2023-03-29T01:42:27.5200462-02:30</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>e9e1d37b65158413c85aad4706d94ff0</guid>
+    <fileName>Assets/AstarPathfindingProject/Editor/AILerpEditor.cs</fileName>
+    <timeStamp>2023-03-29T01:42:27.5200462-02:30</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>535448c66b9354b64b6b52fff9e39099</guid>
+    <fileName>Assets/AstarPathfindingProject/Editor/AnimationLinkEditor.cs</fileName>
+    <timeStamp>2023-03-29T01:42:27.52207-02:30</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>aa27fa41f8abe460a8b64e13d7be43ad</guid>
+    <fileName>Assets/AstarPathfindingProject/Editor/AstarPathEditor.cs</fileName>
+    <timeStamp>2023-03-29T01:42:27.52207-02:30</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>8df9913c9ee004459b24d89644e573d7</guid>
+    <fileName>Assets/AstarPathfindingProject/Editor/AstarUpdateChecker.cs</fileName>
+    <timeStamp>2023-03-29T01:42:27.5241923-02:30</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>97d8d5fc46a644f22b0d66c6ee18e753</guid>
+    <fileName>Assets/AstarPathfindingProject/Editor/AstarUpdateWindow.cs</fileName>
+    <timeStamp>2023-03-29T01:42:27.5241923-02:30</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>576dcf42aca804a48b5923974edaee01</guid>
+    <fileName>Assets/AstarPathfindingProject/Editor/CustomGraphEditorAttribute.cs</fileName>
+    <timeStamp>2023-03-29T01:42:27.5251922-02:30</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>4c7bf5208cabd4676a4691ce4541bd62</guid>
+    <fileName>Assets/AstarPathfindingProject/Editor/GraphUpdateSceneEditor.cs</fileName>
+    <timeStamp>2023-03-29T01:42:27.5991641-02:30</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>b50f1b778f5176f18b2305552cc4639c</guid>
+    <fileName>Assets/AstarPathfindingProject/Editor/ProceduralGridMoverEditor.cs</fileName>
+    <timeStamp>2023-03-29T01:42:27.602683-02:30</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>95febb4c5ed8c46939368f03ecf4b3b0</guid>
+    <fileName>Assets/AstarPathfindingProject/Editor/SeekerEditor.cs</fileName>
+    <timeStamp>2023-03-29T01:42:27.6038022-02:30</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>c7636164485c04efe8fad73ab1ee985f</guid>
+    <fileName>Assets/AstarPathfindingProject/Generators/Base.cs</fileName>
+    <timeStamp>2023-03-29T01:42:27.6981795-02:30</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>d5d28978e568e40429b2981fab3e380e</guid>
+    <fileName>Assets/AstarPathfindingProject/Generators/GridGenerator.cs</fileName>
+    <timeStamp>2023-03-29T01:42:27.6991794-02:30</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>f8b76f19632144117a3ac7f28faf2c15</guid>
+    <fileName>Assets/AstarPathfindingProject/Generators/NavmeshBase.cs</fileName>
+    <timeStamp>2023-03-29T01:42:27.7016832-02:30</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>ffae751ca240c466185a168f4a9836cb</guid>
+    <fileName>Assets/AstarPathfindingProject/Generators/NavMeshGenerator.cs</fileName>
+    <timeStamp>2023-03-29T01:42:27.7001796-02:30</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>f7458b5480c614cebb219a8f7f5df111</guid>
+    <fileName>Assets/AstarPathfindingProject/Generators/PointGenerator.cs</fileName>
+    <timeStamp>2023-03-29T01:42:27.7057885-02:30</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>4931e76e5e5784200a904f4b59596556</guid>
+    <fileName>Assets/AstarPathfindingProject/Generators/QuadtreeGraph.cs</fileName>
+    <timeStamp>2023-03-29T01:42:27.7067888-02:30</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>c5ac18cdd242041b6bebc0e95b624c85</guid>
+    <fileName>Assets/AstarPathfindingProject/Legacy/LegacyAIPath.cs</fileName>
+    <timeStamp>2023-03-29T01:42:27.7171183-02:30</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>8caf3dccb5aae46daa9684e513307841</guid>
+    <fileName>Assets/AstarPathfindingProject/Legacy/MiscLegacy.cs</fileName>
+    <timeStamp>2023-03-29T01:42:27.7181182-02:30</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>a537d958aa5bb4f35b0d7b40d72278f2</guid>
+    <fileName>Assets/AstarPathfindingProject/Modifiers/AlternativePath.cs</fileName>
+    <timeStamp>2023-03-29T01:42:27.7191182-02:30</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>77f586f285b3847808d79083bd19ef1f</guid>
+    <fileName>Assets/AstarPathfindingProject/Modifiers/FunnelModifier.cs</fileName>
+    <timeStamp>2023-03-29T01:42:27.7191182-02:30</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>ce1f812d122764ce7a45f2dd03915e46</guid>
+    <fileName>Assets/AstarPathfindingProject/Modifiers/Modifiers.cs</fileName>
+    <timeStamp>2023-03-29T01:42:27.720119-02:30</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>b090bec917bbe4c3bbc612ef13f7c4a1</guid>
+    <fileName>Assets/AstarPathfindingProject/Modifiers/RaycastModifier.cs</fileName>
+    <timeStamp>2023-03-29T01:42:27.720119-02:30</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>cb6a34d769a1e4ac7b0b30e433aa443c</guid>
+    <fileName>Assets/AstarPathfindingProject/Modifiers/SimpleSmoothModifier.cs</fileName>
+    <timeStamp>2023-03-29T01:42:27.7216824-02:30</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>f72dd5db0de344ea19ae250ac5b68903</guid>
+    <fileName>Assets/AstarPathfindingProject/Modifiers/StartEndModifier.cs</fileName>
+    <timeStamp>2023-03-29T01:42:27.7226837-02:30</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>8c8c76379ef6d496bb3624f29adc556a</guid>
+    <fileName>Assets/AstarPathfindingProject/Navmesh/NavmeshUpdates.cs</fileName>
+    <timeStamp>2023-03-29T01:42:27.7236839-02:30</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>d064c7cb576144978a3535f4c71ac247</guid>
+    <fileName>Assets/AstarPathfindingProject/Navmesh/RelevantGraphSurface.cs</fileName>
+    <timeStamp>2023-03-29T01:42:27.7246861-02:30</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>e1a464aa9d87d439d9b54e2ed9027f5f</guid>
+    <fileName>Assets/AstarPathfindingProject/PackageTools/EnumFlagAttribute.cs</fileName>
+    <timeStamp>2023-03-29T01:42:27.728207-02:30</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>e256d5533142c4434897b4da38791511</guid>
+    <fileName>Assets/AstarPathfindingProject/PackageTools/UniqueComponentAttribute.cs</fileName>
+    <timeStamp>2023-03-29T01:42:27.7292071-02:30</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>6cce6945a1cc843b997a7abeb3a5013e</guid>
+    <fileName>Assets/AstarPathfindingProject/PackageTools/VersionedMonoBehaviour.cs</fileName>
+    <timeStamp>2023-03-29T01:42:27.7302064-02:30</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>7833eca4f9a3c4a119943a3ef09cdfc9</guid>
+    <fileName>Assets/AstarPathfindingProject/Pathfinders/ABPath.cs</fileName>
+    <timeStamp>2023-03-29T01:42:27.7317114-02:30</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>df8c077ca577944689559bb9e97f9576</guid>
+    <fileName>Assets/AstarPathfindingProject/TurnBased/BlockManager.cs</fileName>
+    <timeStamp>2023-03-29T01:42:27.7398178-02:30</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>b45e20632f1604fc6bb73e0e79cd7368</guid>
+    <fileName>Assets/AstarPathfindingProject/TurnBased/SingleNodeBlocker.cs</fileName>
+    <timeStamp>2023-03-29T01:42:27.7398178-02:30</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>8959628b7b47f4ccca91bcfa87d9f77e</guid>
+    <fileName>Assets/AstarPathfindingProject/Utilities/AstarChecksum.cs</fileName>
+    <timeStamp>2023-03-29T01:42:27.7408179-02:30</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>9bdecddfdfec947eb8ed96282e4b1fe1</guid>
+    <fileName>Assets/AstarPathfindingProject/Utilities/AstarMemory.cs</fileName>
+    <timeStamp>2023-03-29T01:42:27.7418182-02:30</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>fa95ccba91f5c4ab8922aa7859f0a300</guid>
+    <fileName>Assets/AstarPathfindingProject/Utilities/AstarParallel.cs</fileName>
+    <timeStamp>2023-03-29T01:42:27.7423243-02:30</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>0d7c020300da24330bbc70ec30fee5d5</guid>
+    <fileName>Assets/AstarPathfindingProject/Utilities/AstarProfiler.cs</fileName>
+    <timeStamp>2023-03-29T01:42:27.7423243-02:30</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>c306b1bfc824f40909c5a91e06e4090f</guid>
+    <fileName>Assets/AstarPathfindingProject/Utilities/DotNetReplacements.cs</fileName>
+    <timeStamp>2023-03-29T01:42:27.7438247-02:30</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>183748dd497aa473a98ff0cd8cb67fc5</guid>
+    <fileName>Assets/AstarPathfindingProject/Utilities/DynamicGridObstacle.cs</fileName>
+    <timeStamp>2023-03-29T01:42:27.744825-02:30</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>332338376eb42424caa0e3d6bf984a8b</guid>
+    <fileName>Assets/AstarPathfindingProject/Utilities/Funnel.cs</fileName>
+    <timeStamp>2023-03-29T01:42:27.744825-02:30</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>20ed0bf48b2a14d78b8aa2ebe33f0069</guid>
+    <fileName>Assets/AstarPathfindingProject/Utilities/GraphGizmoHelper.cs</fileName>
+    <timeStamp>2023-03-29T01:42:27.7458271-02:30</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>b5818f65b5e1449c1ae6f20de9f75ff5</guid>
+    <fileName>Assets/AstarPathfindingProject/Utilities/GraphUpdateUtilities.cs</fileName>
+    <timeStamp>2023-03-29T01:42:27.746826-02:30</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>7d93ae7d64ab84e23819ac5754065f34</guid>
+    <fileName>Assets/AstarPathfindingProject/Utilities/PathUtilities.cs</fileName>
+    <timeStamp>2023-03-29T01:42:27.746826-02:30</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>6a634230476dc478b88eceac73b1c8a4</guid>
+    <fileName>Assets/AstarPathfindingProject/Utilities/ProceduralGridMover.cs</fileName>
+    <timeStamp>2023-03-29T01:42:27.7478257-02:30</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>8ec9029c797ec471fa8b5640e1829fc0</guid>
+    <fileName>Assets/AstarPathfindingProject/Utilities/ProfileHelper.cs</fileName>
+    <timeStamp>2023-03-29T01:42:27.7478257-02:30</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>7a3cd109c93704c7ba499b8653f402ac</guid>
+    <fileName>Assets/AstarPathfindingProject/Utilities/RetainedGizmos.cs</fileName>
+    <timeStamp>2023-03-29T01:42:27.7488271-02:30</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>632ae7eb1d4ce49d38a1e38ee7efe7c5</guid>
+    <fileName>Assets/AstarPathfindingProject/Utilities/UnityReferenceHelper.cs</fileName>
+    <timeStamp>2023-03-29T01:42:27.7498269-02:30</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>a08f67bbe580e4ddfaebd06363c9cc97</guid>
+    <fileName>Assets/AstarPathfindingProject/Core/AI/AIBase.cs</fileName>
+    <timeStamp>2023-03-29T01:42:27.4738078-02:30</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>847a14d4dc9cc43679ab34fc78e0182f</guid>
+    <fileName>Assets/AstarPathfindingProject/Core/AI/AILerp.cs</fileName>
+    <timeStamp>2023-03-29T01:42:27.4748095-02:30</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>f6eb1402c17e84a9282a7f0f62eb584f</guid>
+    <fileName>Assets/AstarPathfindingProject/Core/AI/AIPath.cs</fileName>
+    <timeStamp>2023-03-29T01:42:27.4758099-02:30</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>b7438f3f6b9404f05ab7f584f92aa7d5</guid>
+    <fileName>Assets/AstarPathfindingProject/Core/AI/IAstarAI.cs</fileName>
+    <timeStamp>2023-03-29T01:42:27.4768099-02:30</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>20549335d45df4a329ece093b865221b</guid>
+    <fileName>Assets/AstarPathfindingProject/Core/AI/NavmeshController.cs</fileName>
+    <timeStamp>2023-03-29T01:42:27.4778103-02:30</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>373b52eb9bf8c40f785bb6947a1aee66</guid>
+    <fileName>Assets/AstarPathfindingProject/Core/AI/Seeker.cs</fileName>
+    <timeStamp>2023-03-29T01:42:27.4778103-02:30</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>8f95b80c439d6408b9afac9d013922e4</guid>
+    <fileName>Assets/AstarPathfindingProject/Core/AI/TurnBasedAI.cs</fileName>
+    <timeStamp>2023-03-29T01:42:27.4788101-02:30</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>d2e8b1fd6fa484fc29f8a26fb5e8662b</guid>
+    <fileName>Assets/AstarPathfindingProject/Core/Misc/AnimationLink.cs</fileName>
+    <timeStamp>2023-03-29T01:42:27.4838367-02:30</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>787a564bf2d894ee09284b775074864c</guid>
+    <fileName>Assets/AstarPathfindingProject/Core/Misc/ArrayPool.cs</fileName>
+    <timeStamp>2023-03-29T01:42:27.4848377-02:30</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>5103795af2d504ea693528e938005441</guid>
+    <fileName>Assets/AstarPathfindingProject/Core/Misc/AstarDebugger.cs</fileName>
+    <timeStamp>2023-03-29T01:42:27.485838-02:30</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>2664ef60fd2811ba280670298a6d312b</guid>
+    <fileName>Assets/AstarPathfindingProject/Core/Misc/AutoRepathPolicy.cs</fileName>
+    <timeStamp>2023-03-29T01:42:27.485838-02:30</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>eb4299e8747f44ad2b4e086752108ea3</guid>
+    <fileName>Assets/AstarPathfindingProject/Core/Misc/BinaryHeap.cs</fileName>
+    <timeStamp>2023-03-29T01:42:27.4868382-02:30</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>506739df886ce4ebb9b14b16d86b5e13</guid>
+    <fileName>Assets/AstarPathfindingProject/Core/Misc/Draw.cs</fileName>
+    <timeStamp>2023-03-29T01:42:27.4878386-02:30</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>8127bc49e9e2d42dfa7a4e057842f165</guid>
+    <fileName>Assets/AstarPathfindingProject/Core/Misc/EditorResourceHelper.cs</fileName>
+    <timeStamp>2023-03-29T01:42:27.4888385-02:30</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>704136724bc95455ebe477f42f5c5a84</guid>
+    <fileName>Assets/AstarPathfindingProject/Core/Misc/GraphEditorBase.cs</fileName>
+    <timeStamp>2023-03-29T01:42:27.4888385-02:30</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>39897fb482672480a817862c3909a4aa</guid>
+    <fileName>Assets/AstarPathfindingProject/Core/Misc/GraphModifier.cs</fileName>
+    <timeStamp>2023-03-29T01:42:27.4898387-02:30</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>b1798d8e7c7d54972ae8522558cbd27c</guid>
+    <fileName>Assets/AstarPathfindingProject/Core/Misc/GraphUpdateProcessor.cs</fileName>
+    <timeStamp>2023-03-29T01:42:27.4908391-02:30</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>fd178834bf6c54cdb8fc5f76a039a91c</guid>
+    <fileName>Assets/AstarPathfindingProject/Core/Misc/GraphUtilities.cs</fileName>
+    <timeStamp>2023-03-29T01:42:27.4908391-02:30</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>aa5d6e4a6adb04d4ca9b7e735addcbd5</guid>
+    <fileName>Assets/AstarPathfindingProject/Core/Misc/HierarchicalGraph.cs</fileName>
+    <timeStamp>2023-03-29T01:42:27.4923423-02:30</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>5826dd4a1809b448291582cd06deadc1</guid>
+    <fileName>Assets/AstarPathfindingProject/Core/Misc/Int3.cs</fileName>
+    <timeStamp>2023-03-29T01:42:27.4923423-02:30</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>2b76b7593907b44d9a6ef1b186fee0a7</guid>
+    <fileName>Assets/AstarPathfindingProject/Core/Misc/ListPool.cs</fileName>
+    <timeStamp>2023-03-29T01:42:27.4933435-02:30</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>0a6cffd9895f94907aa43f18b0904587</guid>
+    <fileName>Assets/AstarPathfindingProject/Core/Misc/MovementUtilities.cs</fileName>
+    <timeStamp>2023-03-29T01:42:27.494345-02:30</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>ca327ce4e754a4597a70fb963758f8bd</guid>
+    <fileName>Assets/AstarPathfindingProject/Core/Misc/NodeLink.cs</fileName>
+    <timeStamp>2023-03-29T01:42:27.494345-02:30</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>bd2cfff5dfa8c4244aa00fea9675adb2</guid>
+    <fileName>Assets/AstarPathfindingProject/Core/Misc/NodeLink2.cs</fileName>
+    <timeStamp>2023-03-29T01:42:27.4953452-02:30</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>3850d0dc2bead45568e6b5bbcc011606</guid>
+    <fileName>Assets/AstarPathfindingProject/Core/Misc/NodeLink3.cs</fileName>
+    <timeStamp>2023-03-29T01:42:27.4963453-02:30</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>10837c5b030bd47a2a0e6e213fea0868</guid>
+    <fileName>Assets/AstarPathfindingProject/Core/Misc/ObjectPool.cs</fileName>
+    <timeStamp>2023-03-29T01:42:27.4963453-02:30</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>9c0392dbc5e744ee28e7b9ee81aea1e2</guid>
+    <fileName>Assets/AstarPathfindingProject/Core/Misc/PathInterpolator.cs</fileName>
+    <timeStamp>2023-03-29T01:42:27.4973455-02:30</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>cefe1014ab62848a89016fb97b1f8f7b</guid>
+    <fileName>Assets/AstarPathfindingProject/Core/Misc/PathPool.cs</fileName>
+    <timeStamp>2023-03-29T01:42:27.4983457-02:30</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>f1b519f8b6e2c450aaae5cb2df6c73be</guid>
+    <fileName>Assets/AstarPathfindingProject/Core/Misc/PathProcessor.cs</fileName>
+    <timeStamp>2023-03-29T01:42:27.4983457-02:30</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>70ca370ae38794366be2fa32880f362e</guid>
+    <fileName>Assets/AstarPathfindingProject/Core/Misc/PathReturnQueue.cs</fileName>
+    <timeStamp>2023-03-29T01:42:27.4993459-02:30</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>de467bbbb1ff84668ae8262caad00941</guid>
+    <fileName>Assets/AstarPathfindingProject/Core/Misc/StackPool.cs</fileName>
+    <timeStamp>2023-03-29T01:42:27.4993459-02:30</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>e6a8344fd0d1c453cbaf5c5eb8f55ca5</guid>
+    <fileName>Assets/AstarPathfindingProject/Core/Misc/ThreadControlQueue.cs</fileName>
+    <timeStamp>2023-03-29T01:42:27.5003461-02:30</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>810a4e97f5ccb4b5184c4c3206492974</guid>
+    <fileName>Assets/AstarPathfindingProject/Core/Misc/WindowsStoreCompatibility.cs</fileName>
+    <timeStamp>2023-03-29T01:42:27.5003461-02:30</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>4236764d0fc1041abaac13b858be5118</guid>
+    <fileName>Assets/AstarPathfindingProject/Core/Misc/WorkItemProcessor.cs</fileName>
+    <timeStamp>2023-03-29T01:42:27.5018493-02:30</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>a660e0d66fb3b49d19d438de51ac6744</guid>
+    <fileName>Assets/AstarPathfindingProject/Core/Nodes/GraphNode.cs</fileName>
+    <timeStamp>2023-03-29T01:42:27.502869-02:30</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>e736879b230a341c59bfcaed0bec3ac3</guid>
+    <fileName>Assets/AstarPathfindingProject/Core/Serialization/JsonConverters.cs</fileName>
+    <timeStamp>2023-03-29T01:42:27.5058711-02:30</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>edd6db33319e94141bb849f4f58261c3</guid>
+    <fileName>Assets/AstarPathfindingProject/Core/Serialization/JsonSerializer.cs</fileName>
+    <timeStamp>2023-03-29T01:42:27.5058711-02:30</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>f6973e76355ee420394e5f521d20e2cc</guid>
+    <fileName>Assets/AstarPathfindingProject/Core/Serialization/SimpleJsonReplacement.cs</fileName>
+    <timeStamp>2023-03-29T01:42:27.5068708-02:30</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>e4ab3c0aea7564a9c9af3bf72ed95858</guid>
+    <fileName>Assets/AstarPathfindingProject/Core/Serialization/SimpleZipReplacement.cs</fileName>
+    <timeStamp>2023-03-29T01:42:27.5078723-02:30</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>761fd44fdff0b40648c9b7ce7763a06f</guid>
+    <fileName>Assets/AstarPathfindingProject/Core/Serialization/TinyJson.cs</fileName>
+    <timeStamp>2023-03-29T01:42:27.5088725-02:30</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>b0bbfd9d85ec946b2a05cdeaab0d6f5f</guid>
+    <fileName>Assets/AstarPathfindingProject/Editor/GraphEditors/GraphEditor.cs</fileName>
+    <timeStamp>2023-03-29T01:42:27.5961647-02:30</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>22fe5ef0fc7b34922bb13d1961c9f444</guid>
+    <fileName>Assets/AstarPathfindingProject/Editor/GraphEditors/GridGeneratorEditor.cs</fileName>
+    <timeStamp>2023-03-29T01:42:27.597164-02:30</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>c4ad80e9395de47c78e55cbaae437660</guid>
+    <fileName>Assets/AstarPathfindingProject/Editor/GraphEditors/NavMeshGeneratorEditor.cs</fileName>
+    <timeStamp>2023-03-29T01:42:27.5981651-02:30</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>b563cffdf75ee4497b91d4ac8e106260</guid>
+    <fileName>Assets/AstarPathfindingProject/Editor/GraphEditors/PointGeneratorEditor.cs</fileName>
+    <timeStamp>2023-03-29T01:42:27.5981651-02:30</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>5075ffc0df8c943368fa824db55589b4</guid>
+    <fileName>Assets/AstarPathfindingProject/Editor/Legacy/LegacyAIPathEditor2.cs</fileName>
+    <timeStamp>2023-03-29T01:42:27.6001646-02:30</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>a97cec2d4f06c4d0eb0068c24cb47ca1</guid>
+    <fileName>Assets/AstarPathfindingProject/Editor/Legacy/LegacyEditorHelper2.cs</fileName>
+    <timeStamp>2023-03-29T01:42:27.6001646-02:30</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>ec73ac2d3bd6342faace3242ff3e6f79</guid>
+    <fileName>Assets/AstarPathfindingProject/Editor/ModifierEditors/RaycastModifierEditor.cs</fileName>
+    <timeStamp>2023-03-29T01:42:27.6016674-02:30</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>1b6748a8c87024ddd9cc5f3c5e19ab60</guid>
+    <fileName>Assets/AstarPathfindingProject/Editor/ModifierEditors/SmoothModifierEditor.cs</fileName>
+    <timeStamp>2023-03-29T01:42:27.602683-02:30</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>b265527da9152484fa74392751085576</guid>
+    <fileName>Assets/AstarPathfindingProject/ExampleScenes/Example12_Procedural/ProceduralWorld.cs</fileName>
+    <timeStamp>2023-03-29T01:42:27.6098039-02:30</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>46fb00c7e6ad9485282a146ad398a2a5</guid>
+    <fileName>Assets/AstarPathfindingProject/ExampleScenes/ExampleScripts/AstarSmoothFollow2.cs</fileName>
+    <timeStamp>2023-03-29T01:42:27.6358042-02:30</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>e96422fbb088f477baaf6f2ada396863</guid>
+    <fileName>Assets/AstarPathfindingProject/ExampleScenes/ExampleScripts/DoorController.cs</fileName>
+    <timeStamp>2023-03-29T01:42:27.6368044-02:30</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>3f35b84b127b849e38b74966118e7e0f</guid>
+    <fileName>Assets/AstarPathfindingProject/ExampleScenes/ExampleScripts/MineBotAI.cs</fileName>
+    <timeStamp>2023-03-29T01:42:27.6368044-02:30</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>8503d71a898994d3288ce1708e2707fe</guid>
+    <fileName>Assets/AstarPathfindingProject/ExampleScenes/ExampleScripts/MineBotAnimation.cs</fileName>
+    <timeStamp>2023-03-29T01:42:27.6378054-02:30</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>687e3bc0934ac46d3957e59872965f3c</guid>
+    <fileName>Assets/AstarPathfindingProject/ExampleScenes/ExampleScripts/ObjectPlacer.cs</fileName>
+    <timeStamp>2023-03-29T01:42:27.6388057-02:30</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>c0acfdba178b145239678a03b9df938a</guid>
+    <fileName>Assets/AstarPathfindingProject/ExampleScenes/ExampleScripts/SnapToNode.cs</fileName>
+    <timeStamp>2023-03-29T01:42:27.6398059-02:30</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>f903c2eb621d8418d88f8dad81b13dc6</guid>
+    <fileName>Assets/AstarPathfindingProject/ExampleScenes/ExampleScripts/TargetMover.cs</fileName>
+    <timeStamp>2023-03-29T01:42:27.640806-02:30</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>5291f1ec332d746138ac025aecb1e12d</guid>
+    <fileName>Assets/AstarPathfindingProject/Generators/NodeClasses/GridNode.cs</fileName>
+    <timeStamp>2023-03-29T01:42:27.7026968-02:30</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>1b723ddfaa37b46eca23cd8d042ad3e9</guid>
+    <fileName>Assets/AstarPathfindingProject/Generators/NodeClasses/GridNodeBase.cs</fileName>
+    <timeStamp>2023-03-29T01:42:27.7037875-02:30</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>986ad6174b59e40068c715a916740ce9</guid>
+    <fileName>Assets/AstarPathfindingProject/Generators/NodeClasses/PointNode.cs</fileName>
+    <timeStamp>2023-03-29T01:42:27.7037875-02:30</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>54908f58720324c048a5b475a27077fa</guid>
+    <fileName>Assets/AstarPathfindingProject/Generators/NodeClasses/TriangleMeshNode.cs</fileName>
+    <timeStamp>2023-03-29T01:42:27.7047875-02:30</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>3a20480c673fd40a5bd2a4cc2206dbc4</guid>
+    <fileName>Assets/AstarPathfindingProject/Generators/Utilities/BBTree.cs</fileName>
+    <timeStamp>2023-03-29T01:42:27.7077886-02:30</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>3ac3213e3eeb14eef91939f5281682e6</guid>
+    <fileName>Assets/AstarPathfindingProject/Generators/Utilities/EuclideanEmbedding.cs</fileName>
+    <timeStamp>2023-03-29T01:42:27.7087892-02:30</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>f9d3961465175430a84fd52d1bd31b05</guid>
+    <fileName>Assets/AstarPathfindingProject/Generators/Utilities/GraphTransform.cs</fileName>
+    <timeStamp>2023-03-29T01:42:27.7097893-02:30</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>7b09e5cbe5d4644c2b4ed9eed14cc13a</guid>
+    <fileName>Assets/AstarPathfindingProject/Generators/Utilities/GridLookup.cs</fileName>
+    <timeStamp>2023-03-29T01:42:27.7097893-02:30</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>b56789f958bf1496ba91f7e2b4147166</guid>
+    <fileName>Assets/AstarPathfindingProject/Generators/Utilities/NavMeshRenderer.cs</fileName>
+    <timeStamp>2023-03-29T01:42:27.7107896-02:30</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>7408cbadf2e744d22853a92b15abede1</guid>
+    <fileName>Assets/AstarPathfindingProject/Generators/Utilities/NavmeshTile.cs</fileName>
+    <timeStamp>2023-03-29T01:42:27.7117895-02:30</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>a4ed1c6c3af454395b428ad955994366</guid>
+    <fileName>Assets/AstarPathfindingProject/Generators/Utilities/ObjImporter.cs</fileName>
+    <timeStamp>2023-03-29T01:42:27.7117895-02:30</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>4aef007a0dd474c20872caa35fbbc8a7</guid>
+    <fileName>Assets/AstarPathfindingProject/Generators/Utilities/PointKDTree.cs</fileName>
+    <timeStamp>2023-03-29T01:42:27.7131159-02:30</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>4075ffc0df8c943368fa824db55589b4</guid>
+    <fileName>Assets/AstarPathfindingProject/Legacy/Editor/LegacyAIPathEditor.cs</fileName>
+    <timeStamp>2023-03-29T01:42:27.7141165-02:30</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>f97cec2d4f06c4d0eb0068c24cb47ca1</guid>
+    <fileName>Assets/AstarPathfindingProject/Legacy/Editor/LegacyEditorHelper.cs</fileName>
+    <timeStamp>2023-03-29T01:42:27.7151164-02:30</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>60b238a5bdb294eb48cfc8aff10ac9b5</guid>
+    <fileName>Assets/AstarPathfindingProject/Legacy/Editor/LegacyRichAIEditor.cs</fileName>
+    <timeStamp>2023-03-29T01:42:27.7161178-02:30</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>de195cf1c91924838ac8f0fedf5fa216</guid>
+    <fileName>Assets/AstarPathfindingProject/Legacy/Editor/LegacyRVOControllerEditor.cs</fileName>
+    <timeStamp>2023-03-29T01:42:27.7161178-02:30</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>58753931a68ae48b3973d0ce32d1a760</guid>
+    <fileName>Assets/AstarPathfindingProject/PackageTools/Editor/EditorBase.cs</fileName>
+    <timeStamp>2023-03-29T01:42:27.7261911-02:30</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>2b6b4977544da4af3a4fe9e895fb6888</guid>
+    <fileName>Assets/AstarPathfindingProject/PackageTools/Editor/EditorGUIx.cs</fileName>
+    <timeStamp>2023-03-29T01:42:27.7261911-02:30</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>616267fcc419f44ea929599afa5c6aa2</guid>
+    <fileName>Assets/AstarPathfindingProject/PackageTools/Editor/EnumFlagDrawer.cs</fileName>
+    <timeStamp>2023-03-29T01:42:27.7272056-02:30</timeStamp>
+    <typeFullName />
+  </TypeDate>
+</ArrayOfTypeDate>
