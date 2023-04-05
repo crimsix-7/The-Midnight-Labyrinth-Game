@@ -15,6 +15,7 @@ public class PlayerHandler : MonoBehaviour
 
     SpriteRenderer spriterenderer;
     Rigidbody2D rb;
+    PlayerHealth playerHealth;
 
     Animator animator;
 
@@ -26,6 +27,8 @@ public class PlayerHandler : MonoBehaviour
         rb = GetComponent<Rigidbody2D>();
         animator = GetComponent<Animator>();
         spriterenderer = GetComponent<SpriteRenderer>();
+        playerHealth = GetComponent<PlayerHealth>();
+
     }
 
     // Update is called once per frame
@@ -65,7 +68,10 @@ public class PlayerHandler : MonoBehaviour
             moveSpeed = slowSpeed;
             Destroy(other.gameObject);
         }
-
+        else if(other.tag == "Health")
+        {
+            playerHealth.health += 1;
+        }
     }
 
     private bool TryMove(Vector2 direction){

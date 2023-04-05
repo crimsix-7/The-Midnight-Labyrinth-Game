@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class EnemyDamage : MonoBehaviour
 {
+
     // pulling function rom PlayerHealth class.
     public PlayerHealth playerHealth;
     public int damage = 1;
@@ -21,5 +22,6 @@ public class EnemyDamage : MonoBehaviour
                 playerHealth.TakeDamage(damage);
             }
         }
-    
+
+
 }
