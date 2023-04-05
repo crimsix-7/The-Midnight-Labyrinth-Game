@@ -134,6 +134,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   moveSpeed: 1
   collisionOffset: 0.02
+  boostSpeed: 2.5
+  slowSpeed: 1
   movementFilter:
     useTriggers: 0
     useLayerMask: 0
@@ -229,3 +231,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   health: 0
   maxHealth: 3
+  audioPlayer: {fileID: 0}

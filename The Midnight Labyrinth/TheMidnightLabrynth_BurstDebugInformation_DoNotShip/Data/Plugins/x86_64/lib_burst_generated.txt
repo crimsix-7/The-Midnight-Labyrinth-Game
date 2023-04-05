@@ -150,6 +150,7 @@ Library: lib_burst_generated
 --root-assembly=C:\Users\bukha\Documents\GitHub\The-Midnight-Labyrinth-Game\The Midnight Labyrinth\Temp\StagingArea\Data\Managed\Unity.InputSystem.dll
 --root-assembly=C:\Users\bukha\Documents\GitHub\The-Midnight-Labyrinth-Game\The Midnight Labyrinth\Temp\StagingArea\Data\Managed\Unity.VisualScripting.State.dll
 --root-assembly=C:\Users\bukha\Documents\GitHub\The-Midnight-Labyrinth-Game\The Midnight Labyrinth\Temp\StagingArea\Data\Managed\Unity.VisualScripting.Core.dll
+--root-assembly=C:\Users\bukha\Documents\GitHub\The-Midnight-Labyrinth-Game\The Midnight Labyrinth\Temp\StagingArea\Data\Managed\AstarPathfindingProject.dll
 --root-assembly=C:\Users\bukha\Documents\GitHub\The-Midnight-Labyrinth-Game\The Midnight Labyrinth\Temp\StagingArea\Data\Managed\Unity.Burst.dll
 --root-assembly=C:\Users\bukha\Documents\GitHub\The-Midnight-Labyrinth-Game\The Midnight Labyrinth\Temp\StagingArea\Data\Managed\Unity.2D.Animation.Runtime.dll
 --root-assembly=C:\Users\bukha\Documents\GitHub\The-Midnight-Labyrinth-Game\The Midnight Labyrinth\Temp\StagingArea\Data\Managed\Unity.TextMeshPro.dll
@@ -319,6 +320,7 @@ Library: lib_burst_generated
 --root-assembly=C:\Users\bukha\Documents\GitHub\The-Midnight-Labyrinth-Game\The Midnight Labyrinth\Temp\StagingArea\Data\Managed\Unity.InputSystem.dll
 --root-assembly=C:\Users\bukha\Documents\GitHub\The-Midnight-Labyrinth-Game\The Midnight Labyrinth\Temp\StagingArea\Data\Managed\Unity.VisualScripting.State.dll
 --root-assembly=C:\Users\bukha\Documents\GitHub\The-Midnight-Labyrinth-Game\The Midnight Labyrinth\Temp\StagingArea\Data\Managed\Unity.VisualScripting.Core.dll
+--root-assembly=C:\Users\bukha\Documents\GitHub\The-Midnight-Labyrinth-Game\The Midnight Labyrinth\Temp\StagingArea\Data\Managed\AstarPathfindingProject.dll
 --root-assembly=C:\Users\bukha\Documents\GitHub\The-Midnight-Labyrinth-Game\The Midnight Labyrinth\Temp\StagingArea\Data\Managed\Unity.Burst.dll
 --root-assembly=C:\Users\bukha\Documents\GitHub\The-Midnight-Labyrinth-Game\The Midnight Labyrinth\Temp\StagingArea\Data\Managed\Unity.2D.Animation.Runtime.dll
 --root-assembly=C:\Users\bukha\Documents\GitHub\The-Midnight-Labyrinth-Game\The Midnight Labyrinth\Temp\StagingArea\Data\Managed\Unity.TextMeshPro.dll
