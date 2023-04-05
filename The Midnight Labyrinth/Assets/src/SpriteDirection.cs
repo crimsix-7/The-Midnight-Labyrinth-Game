@@ -18,6 +18,7 @@ public class SpriteDirection : MonoBehaviour
 
     private void FixedUpdate()
     {
+        
         if (aiPath.desiredVelocity.x != 0.00f || aiPath.desiredVelocity.y != 0.00f){
             enemyanimator.SetBool("isTracking", true);
         }

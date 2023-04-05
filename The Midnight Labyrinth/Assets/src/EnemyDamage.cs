@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class EnemyDamage : MonoBehaviour
 {
+
     // pulling function rom PlayerHealth class.
     public PlayerHealth playerHealth;
     public int damage = 1;
@@ -19,7 +20,17 @@ public class EnemyDamage : MonoBehaviour
             if(other.gameObject.tag == "Player")
             {
                 playerHealth.TakeDamage(damage);
+                Debug.Log("Hit");
             }
         }
     
+    private void OnTriggerEnter2D(Collider2D other) {
+        if(other.gameObject.tag == "Player")
+            {
+                playerHealth.TakeDamage(damage);
+                Debug.Log("Hit");
+            }
+    }
+    
+
 }

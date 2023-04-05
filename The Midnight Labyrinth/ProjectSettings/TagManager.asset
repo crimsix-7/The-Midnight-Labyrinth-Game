@@ -13,7 +13,7 @@ TagManager:
   - Enemy
   - Boost
   - Slow
-  - levelComplete
+  - Health
   layers:
   - Default
   - TransparentFX
@@ -21,7 +21,7 @@ TagManager:
   - 
   - Water
   - UI
-  - 
+  - Spikes
   - Ground
   - Walls
   - Player
