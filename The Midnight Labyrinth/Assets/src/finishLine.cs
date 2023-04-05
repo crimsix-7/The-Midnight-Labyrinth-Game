@@ -12,7 +12,8 @@ public class finishLine : MonoBehaviour
         if(collision.tag=="Player")
         {
             Debug.Log("Hooray!!! You Won!");
-            SceneManager.LoadScene("Scene0");
+            Transition.Alive = true;
+            SceneManager.LoadScene("Game");
             Debug.Log("MainMenu");
         }
     }
