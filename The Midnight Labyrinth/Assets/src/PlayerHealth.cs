@@ -21,14 +21,16 @@ public class PlayerHealth : MonoBehaviour
         Player = GameObject.FindGameObjectWithTag("Player");
         health = maxHealth;
         playerHandler = GetComponent<PlayerHandler>();
+        Transition.level = SceneManager.GetActiveScene().name;
+        Transition.lvlindex = SceneManager.GetActiveScene().buildIndex;
     }
 
     // Update is called once per frame
     void changeScene()
     {
-        SceneManager.LoadScene("Scene0");
+        Transition.Alive = false;
+        SceneManager.LoadScene("deathAnimation");
         Destroy(Player);
-        playerAlive = false;
     }
     public void TakeDamage(int amount)
     {
