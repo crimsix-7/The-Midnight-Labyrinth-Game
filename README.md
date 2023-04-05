@@ -9,6 +9,10 @@ Prerequisites
     Unity Hub installed on your computer.
     Unity version used to create the project installed on your computer.
     Git/Github Desktop installed on your computer
+
+    Here is an additional video explaining the process of accessing the files in git
+    https://youtu.be/pNUdu-6ZNBg  
+
     
 
 # Clone the Unity Project using Git
@@ -39,7 +43,8 @@ Prerequisites
     Navigate to the directory where you saved the executable.
     Double-click on the executable ending with .exe or Apple File System to run it.
     Test the executable to ensure it runs correctly.
-# What to Expect.
+# What to Expect (Interim Demo).
+    
     
     Sound Effects: Players can expect sound effects when they die, which will be an electronic buzz.
 
@@ -50,6 +55,18 @@ Prerequisites
     Player Maneuverability: Players will be able to navigate through a maze, using various maneuvers to evade the AI bot and reach their goals. 
      The game's mechanics will allow players to avoid the AI bot QUite smoothly.
     
+# What to Expect (Final Demo).
+    All the usecase proposed in the the final demo in the project proposal have been applied.
+    
+    Achievement indicator: Radar indication showcasing presence of enemy.
+
+    All 5 levels built.
+
+    Special Items and traps added.
+
+    Design principles implemented.
+
+
 # Accessing Source Code
     To access the source code go to the folder "The Midnight Labyrinth" => "Assets" => "SRC"
 
