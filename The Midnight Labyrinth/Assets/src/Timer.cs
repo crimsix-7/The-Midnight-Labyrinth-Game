@@ -4,6 +4,7 @@ using TMPro;
 
 public class Timer : MonoBehaviour
 {
+    public static float lvltime;
     // Component used to display the timer
     [Header("Component")]
     public TextMeshProUGUI timerText;
@@ -34,7 +35,12 @@ public class Timer : MonoBehaviour
     void Update()
     {
         // Update the current time based on the count direction
-        currentTime = countDown ? currentTime -= Time.deltaTime : currentTime += Time.deltaTime;
+        if (Transition.Alive==true)
+        {
+            currentTime = countDown ? currentTime -= Time.deltaTime : currentTime += Time.deltaTime;
+            lvltime = currentTime;
+        }
+        
 
         // Check if the timer has reached its limit
         if(hasLimit && ((countDown && currentTime <= timerLimit  || (!countDown && currentTime >= timerLimit))))

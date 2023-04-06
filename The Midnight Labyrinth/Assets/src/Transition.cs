@@ -9,6 +9,7 @@ public class Transition : MonoBehaviour
     private GameObject passScreen;
     private GameObject failScreen;
     private GameObject gameEnd;
+    [SerializeField] GameObject[] buttons=new GameObject[4];
     public AudioSource buttonSound;
     public static bool Alive ;
     public static string level;
@@ -36,6 +37,35 @@ public class Transition : MonoBehaviour
                 passScreen.GetComponent<Canvas>().enabled = true;
                 failScreen.GetComponent<Canvas>().enabled = false;
                 gameEnd.GetComponent<Canvas>().enabled = false;
+                if (Timer.lvltime < 180f)
+                {
+                    buttons[0].SetActive(true);
+                    buttons[1].SetActive(true);
+                    buttons[2].SetActive(true);
+                    buttons[3].SetActive(true);
+
+                }
+                else if(Timer.lvltime <300f)
+                {
+                    buttons[0].SetActive(true);
+                    buttons[1].SetActive(true);
+                    buttons[2].SetActive(true);
+                    buttons[3].SetActive(false);
+                }
+                else if (Timer.lvltime <720f)
+                {
+                    buttons[0].SetActive(true);
+                    buttons[1].SetActive(true);
+                    buttons[2].SetActive(false);
+                    buttons[3].SetActive(false);
+                }
+                else
+                {
+                    buttons[0].SetActive (true);
+                    buttons[1].SetActive(true);
+                    buttons[2].SetActive(false);
+                    buttons[3].SetActive(false);
+                }
             }
             
         }
