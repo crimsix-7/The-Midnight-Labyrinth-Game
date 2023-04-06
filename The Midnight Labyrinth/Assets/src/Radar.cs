@@ -20,9 +20,6 @@ public class Radar : MonoBehaviour
     [SerializeField] private int minSortingOrder = 4;
     [SerializeField] private int maxSortingOrder = 6;
 
-    [SerializeField] private float minOscillationSpeed = 1.0f;
-    [SerializeField] private float maxOscillationSpeed = 5.0f;
-
     // Start is called before the first frame update
     void Start()
     {
