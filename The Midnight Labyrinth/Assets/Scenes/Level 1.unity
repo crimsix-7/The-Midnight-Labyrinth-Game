@@ -41754,8 +41754,8 @@ MonoBehaviour:
   ai: {fileID: 147930767}
   player: {fileID: 4903209579616693059}
   icon: {fileID: 2026370794}
-  minDistanceThreshold: 1
-  maxDistanceThreshold: 2
+  minDistance: 1
+  maxDistance: 3
   minSortingOrder: 4
   maxSortingOrder: 6
   minOscillationSpeed: 3
