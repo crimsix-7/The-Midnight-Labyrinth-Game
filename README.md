@@ -3,21 +3,31 @@ This Unity maze game has 5 levels, each with unique design and difficulty that p
 
 # Clone and Build Unity Project
 
-This is a step-by-step guide on how to clone a Unity project from GitHub to your local computer and build it to generate an executable.
+This is a step-by-step guide on how to clone a Unity project from GitHub to your local computer and build it to generate an executable. 
+
+Use this if the game does not play from the Zip Folder attachment.
+
 Prerequisites
 
     Unity Hub installed on your computer.
     Unity version used to create the project installed on your computer.
     Git/Github Desktop installed on your computer
-
-    Here is an additional video explaining the process of accessing the files in git
+    Here is an additional video explaining the process of accessing the files from git
     https://youtu.be/pNUdu-6ZNBg  
 
     
 
 # Clone the Unity Project using Git
 
-    Open a web browser and navigate to the GitHub repository containing the Unity project you want to clone.
+    Open a web browser and navigate to the GitHub repository containing the Unity project you want to clone. 
+    In this case use this link https://github.com/crimsix-7/The-Midnight-Labyrinth-Game.
+    Open Github Desktop.
+    When using Github Desktop Click on 'file' -> 'Clone a repository' -> 'URL' and paste the link.
+
+    Or
+    
+    Open a web browser and navigate to the GitHub repository containing the Unity project you want to clone. 
+    In this case use this link https://github.com/crimsix-7/The-Midnight-Labyrinth-Game 
     Click on the "Code" button and copy the URL of the repository.
     Open Git Bash or your preferred Git client and navigate to the directory where you want to clone the project.
     Run the command git clone <repository-url> and wait for the project to finish cloning.
@@ -58,7 +68,9 @@ Prerequisites
 # What to Expect (Final Demo).
     All the usecase proposed in the the final demo in the project proposal have been applied.
     
-    Achievement indicator: Radar indication showcasing presence of enemy.
+    Achievement indicator: Achievement Indicator based on time.
+
+    Radar Indicator: Radar indication showcasing presence of enemy.
 
     All 5 levels built.
 
