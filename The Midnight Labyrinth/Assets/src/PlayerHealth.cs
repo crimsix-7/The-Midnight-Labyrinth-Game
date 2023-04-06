@@ -20,6 +20,7 @@ public class PlayerHealth : MonoBehaviour
     {
         Player = GameObject.FindGameObjectWithTag("Player");
         health = maxHealth;
+        Transition.Alive = true;
         playerHandler = GetComponent<PlayerHandler>();
         Transition.level = SceneManager.GetActiveScene().name;
         Transition.lvlindex = SceneManager.GetActiveScene().buildIndex;
