@@ -12,9 +12,11 @@ public class Radar : MonoBehaviour
 
     float distance;
 
+    private float switchTimer;
+
     // Start is called before the first frame update
-    [SerializeField] private float minDistanceThreshold = 1.0f;
-    [SerializeField] private float maxDistanceThreshold = 3.0f;
+    [SerializeField] private float minDistance = 1.0f;
+    [SerializeField] private float maxDistance = 3.0f;
     [SerializeField] private int minSortingOrder = 4;
     [SerializeField] private int maxSortingOrder = 6;
 
@@ -24,7 +26,7 @@ public class Radar : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-
+        icon = GetComponent<SpriteRenderer>();
     }
 
     // Update is called once per frame
@@ -37,12 +39,16 @@ public class Radar : MonoBehaviour
 
     private void UpdateIconSortingOrder()
     {
-        float t = Mathf.InverseLerp(minDistanceThreshold, maxDistanceThreshold, distance);
-        float oscillationSpeed = Mathf.Lerp(minOscillationSpeed, maxOscillationSpeed, t);
+        float distance = Vector2.Distance(player.transform.position, ai.transform.position);
+        distance = Mathf.Clamp(distance, minDistance, maxDistance);
+        float switchRate = Mathf.Lerp(1f, 0.1f, 1 - (distance - minDistance) / (maxDistance - minDistance));
+        switchTimer += Time.deltaTime;
 
-        // Use t for linear interpolation between min and max sorting order
-        int sortingOrder = Mathf.RoundToInt(Mathf.Lerp(minSortingOrder, maxSortingOrder, t));
-        icon.sortingOrder = sortingOrder;
+        if (switchTimer >= switchRate)
+        {
+            icon.sortingOrder = icon.sortingOrder == minSortingOrder ? maxSortingOrder : minSortingOrder;
+            switchTimer = 0f;
+        }
 
     }
 }

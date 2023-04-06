@@ -35,24 +35,24 @@ public class PlayerHandler : MonoBehaviour
 
     // Update is called once per frame
     private void FixedUpdate(){
-
-        if (movementInput != Vector2.zero){
-            bool success = TryMove(movementInput);
-
-            if (!success){
-                success = TryMove(new Vector2(movementInput.x, 0));
-            }
-            if (!success){
-                success = TryMove(new Vector2(0, movementInput.y));
-            }    
-
-            animator.SetBool("isMoving", success);
-        }
-        else{
-            animator.SetBool("isMoving", false);
-        }
         if (lockmovement == false)
         {
+            if (movementInput != Vector2.zero){
+                bool success = TryMove(movementInput);
+
+                if (!success){
+                    success = TryMove(new Vector2(movementInput.x, 0));
+                }
+                if (!success){
+                    success = TryMove(new Vector2(0, movementInput.y));
+                }    
+
+                animator.SetBool("isMoving", success);
+            }
+            else{
+                animator.SetBool("isMoving", false);
+            }
+
             if(movementInput.x < 0)
             {
                 spriterenderer.flipX = true;
