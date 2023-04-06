@@ -8,6 +8,7 @@ public class Transition : MonoBehaviour
 {
     private GameObject passScreen;
     private GameObject failScreen;
+    private GameObject gameEnd;
     public AudioSource buttonSound;
     public static bool Alive ;
     public static string level;
@@ -17,15 +18,26 @@ public class Transition : MonoBehaviour
     {
         passScreen = GameObject.Find("gameCanvas");
         failScreen = GameObject.Find("gameOverCanvas");
+        gameEnd = GameObject.Find("gameFinishCanvas");
         if (Alive==false)
         {
             passScreen.GetComponent<Canvas>().enabled = false;
+            gameEnd.GetComponent<Canvas>().enabled = false;
             failScreen.GetComponent<Canvas>().enabled = true;
         }
         else
         {
-            passScreen.GetComponent<Canvas>().enabled = true;
-            failScreen.GetComponent<Canvas>().enabled = false;
+            if(lvlindex==6)
+            {
+                gameEnd.GetComponent<Canvas>().enabled = true;
+            }
+            else
+            {
+                passScreen.GetComponent<Canvas>().enabled = true;
+                failScreen.GetComponent<Canvas>().enabled = false;
+                gameEnd.GetComponent<Canvas>().enabled = false;
+            }
+            
         }
         
     }
@@ -38,11 +50,11 @@ public class Transition : MonoBehaviour
             level="Level "+lvlindex.ToString();
             SceneManager.LoadScene(level);
         }
-        else 
+        /*else 
         {
             buttonSound.Play();
             SceneManager.LoadScene("Main Menu");
-        }
+        }*/
     }
 
     public void retryLevelBT()
