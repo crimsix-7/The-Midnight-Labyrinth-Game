@@ -1029,6 +1029,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 44288d145bd95df4eb8c1b9fd764a0ca, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  buttons:
+  - {fileID: 176165887}
+  - {fileID: 438044748}
+  - {fileID: 665576209}
+  - {fileID: 1602504780}
   buttonSound: {fileID: 371383032}
 --- !u!82 &371383032
 AudioSource:
